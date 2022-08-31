@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Back from '../images/back.png';
+import Menu from '../images/menu.png';
 import Mic from '../images/mic.png';
 import Settings from '../images/settings.png';
 import './styles/Navbar.css';
@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className='nav-container'>
         <div className="back">
-            <img className='icons' src={Back} alt="back" />
+            <img className='icons' src={Menu} alt="menu" />
         </div>
         <NavLink className='detail' to="/"><h2>Crypto Market</h2></NavLink>
         <div className='mic-set'>
