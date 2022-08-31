@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import Back from '../images/back.png';
 import Mic from '../images/mic.png';
 import Settings from '../images/settings.png';
+import './styles/Navbar.css';
 
 function Navbar() {
   return (
@@ -9,7 +10,7 @@ function Navbar() {
         <div className="back">
             <img className='icons' src={Back} alt="back" />
         </div>
-        <NavLink className='detail' to="/"><h2>Cryptomarket</h2></NavLink>
+        <NavLink className='detail' to="/"><h2>Crypto Market</h2></NavLink>
         <div className='mic-set'>
             <img className='icons' src={Mic} alt="mic" />
             <img className='icons' src={Settings} alt="settings" />
