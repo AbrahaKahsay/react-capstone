@@ -28,4 +28,3 @@ Card.propTypes = {
   symbol: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
 };
-

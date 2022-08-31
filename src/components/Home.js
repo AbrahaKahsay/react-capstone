@@ -5,9 +5,10 @@ import Card from './Card';
 
 const Home = () => {
   const dispatch = useDispatch();
-  const cList = useSelector((store) => store.coin);
+  const cList = useSelector((store) => store.coinReducer);
   useEffect(() => {
     dispatch(coinList());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const changeHandler = (e) => {
