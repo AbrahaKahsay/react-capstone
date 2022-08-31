@@ -37,3 +37,16 @@ export const coinFilter = (filter) => async (dispatch) => {
       filterState: firstCoins,
     });
   };
+
+const coinReducer = (state = initialState, action) => {
+    switch (action.type) {
+        case FETCHCOINS:
+            return action.newState;
+        case FILTERCOINS:
+            return action.filterState;
+        default:
+            return state;
+    }
+  };
+  
+  export default coinReducer;
