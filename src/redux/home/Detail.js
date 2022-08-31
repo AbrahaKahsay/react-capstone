@@ -17,12 +17,12 @@ export const coinDetail = (id) => async (dispatch) => {
     });
   };
 
-  const detailReducer = (state = initialState, action) => {
-    switch (action.type) {
-      case DETAIL_FETCHED:
-        return action.detail;
-      default:
-        return state;
+const detailReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case DETAIL_FETCHED:
+      return action.detail;
+    default:
+      return state;
     }
   };
   

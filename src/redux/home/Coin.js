@@ -40,9 +40,9 @@ export const coinFilter = (filter) => async (dispatch) => {
 
 const coinReducer = (state = initialState, action) => {
     switch (action.type) {
-        case FETCHCOINS:
+        case COINS_FETCHED:
             return action.newState;
-        case FILTERCOINS:
+        case COINS_FILTERED:
             return action.filterState;
         default:
             return state;

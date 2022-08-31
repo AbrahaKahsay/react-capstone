@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { coinList, coinFilter } from '../redux/home/Coin';
 import Card from './Card';
 
-const Main = () => {
+const Home = () => {
   const dispatch = useDispatch();
   const cList = useSelector((store) => store.coin);
   useEffect(() => {
@@ -47,4 +47,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;
