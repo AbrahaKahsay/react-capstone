@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { coinList, coinFilter } from '../redux/home/Coin';
 import Card from './Card';
+import '../components/styles/Home.css'
 
 const Home = () => {
   const dispatch = useDispatch();
