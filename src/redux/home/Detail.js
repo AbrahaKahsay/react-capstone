@@ -8,3 +8,22 @@ const fetchDetail = async (id) => {
   const coins = await get.json();
   return coins;
 };
+
+export const coinDetail = (id) => async (dispatch) => {
+    const coinDet = await fetchDetail(id);
+    dispatch({
+      type: DETAIL_FETCHED,
+      detail: coinDet.data,
+    });
+  };
+
+  const detailReducer = (state = initialState, action) => {
+    switch (action.type) {
+      case DETAIL_FETCHED:
+        return action.detail;
+      default:
+        return state;
+    }
+  };
+  
+  export default detailReducer;
