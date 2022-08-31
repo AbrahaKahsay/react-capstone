@@ -9,7 +9,7 @@ function Navbar() {
         <div className="back">
             <img className='icons' src={Back} alt="back" />
         </div>
-        <NavLink className='detail' to="/city">Details</NavLink>
+        <NavLink className='detail' to="/"><h2>Cryptomarket</h2></NavLink>
         <div className='mic-set'>
             <img className='icons' src={Mic} alt="mic" />
             <img className='icons' src={Settings} alt="settings" />
