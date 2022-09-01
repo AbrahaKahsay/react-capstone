@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite component match with the snapshot 1`] = `
+<section
+  className="cont-det"
+>
+  <div
+    className="back-icon-div"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="back"
+        className="back-icon"
+        src="back.png"
+      />
+    </a>
+  </div>
+  <div
+    className="detail coin-name"
+  >
+    <h2>
+      BTC
+    </h2>
+    <p>
+      Bitcoin
+    </p>
+  </div>
+  <div
+    className="det-title col"
+  >
+    Details
+  </div>
+  <div
+    className="detailList"
+  >
+    <div
+      className="d"
+    >
+      <p>
+        Rank:
+      </p>
+      <div>
+        <p>
+           #
+          1
+        </p>
+      </div>
+    </div>
+    <div
+      className="d col"
+    >
+      <p>
+        Price:
+      </p>
+      <div>
+        <p>
+           $
+          19997.1066895115231822
+           USD
+        </p>
+      </div>
+    </div>
+    <div
+      className="d"
+    >
+      <p>
+        Volume 24h:
+      </p>
+      <div>
+        <p>
+           $
+          11498601148.4032373911043218
+        </p>
+      </div>
+    </div>
+    <div
+      className="d col"
+    >
+      <p>
+        Total Supply:
+      </p>
+      <div>
+        <p>
+           
+          19138456.0000000000000000
+           
+          BTC
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+`;
