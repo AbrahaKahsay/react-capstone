@@ -2,10 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 1rem;
-    padding: 10px;
     background-color: rgb(67,105,178);
     color: rgb(246,251,255);
-    position: fixed;
-    width: 90%;
+    /* position: fixed; */
+    width: 100vw;
 }

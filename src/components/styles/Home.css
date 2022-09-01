@@ -3,3 +3,9 @@
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
 }
+
+.info-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
