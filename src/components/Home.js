@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         <div className="forms">
           <form onSubmit={searchHandler}>
-            <input type="text" name="coinSearch" placeholder="Crypto coin name" required />
+            <input type="text" name="coinSearch" placeholder="Fill Crypto name ..." required />
             <input type="submit" value="Search" />
           </form>
         </div>
