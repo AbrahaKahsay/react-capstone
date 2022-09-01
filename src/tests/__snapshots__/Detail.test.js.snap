@@ -60,7 +60,7 @@ exports[`Jest Snapshot testing suite component match with the snapshot 1`] = `
       <div>
         <p>
            $
-          19997.1066895115231822
+          19978.5413670121208613
            USD
         </p>
       </div>
@@ -74,7 +74,7 @@ exports[`Jest Snapshot testing suite component match with the snapshot 1`] = `
       <div>
         <p>
            $
-          11498601148.4032373911043218
+          11473430353.3195981000838766
         </p>
       </div>
     </div>

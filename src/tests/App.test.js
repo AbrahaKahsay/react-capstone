@@ -9,7 +9,7 @@ describe('Jest Snapshot testing suite', () => {
     render(
       <Provider store={store}>
         <App />
-      </Provider>
+      </Provider>,
     );
     await waitFor(() => {
       const waitForDOM = screen.findByText(
@@ -23,7 +23,7 @@ describe('Jest Snapshot testing suite', () => {
     const Tree = renderer.create(
       <Provider store={store}>
         <App />
-      </Provider>
+      </Provider>,
     ).toJSON();
     expect(Tree).toMatchSnapshot();
   });

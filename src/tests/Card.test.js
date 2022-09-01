@@ -2,16 +2,23 @@ import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/configureStore';
-import Detail from '../components/Detail';
-import { coinDetail } from '../redux/home/Detail';
+import Card from '../components/Card';
+
+const coin = {
+  id: 'bitcoin',
+  symbol: 'BTC',
+};
 
 describe('Jest Snapshot testing suite', () => {
-  test('component match with the snapshot', async () => {
-    await store.dispatch(coinDetail('bitcoin'));
+  test('component match with the snapshot', () => {
     const tree = renderer.create(
       <BrowserRouter>
         <Provider store={store}>
-          <Detail />
+          <Card
+            key={coin.id}
+            id={coin.id}
+            symbol={coin.symbol}
+          />
         </Provider>
       </BrowserRouter>,
     ).toJSON();
