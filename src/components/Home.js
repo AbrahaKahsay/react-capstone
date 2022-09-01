@@ -24,14 +24,14 @@ const Home = () => {
   return (
     <section>
       <div className="info-list">
-        <div>
+        <div className="options">
           <select className="filter" onChange={changeHandler}>
             <option value="price"> Rank </option>
             <option value="name"> Name </option>
             <option value="vol"> Price </option>
           </select>
         </div>
-        <div>
+        <div className="forms">
           <form onSubmit={searchHandler}>
             <input type="text" name="coinSearch" placeholder="Crypto coin name" required />
             <input type="submit" value="Search" />
