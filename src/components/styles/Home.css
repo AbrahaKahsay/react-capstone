@@ -1,46 +1,46 @@
 .coinList {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: rgb(67, 105, 178);
+  color: white;
+  margin: 0;
+  text-decoration: none;
 }
 
 .card:nth-child(4n),
 .card:nth-child(4n+1) {
-    background-color: rgb(54,88,148);
-}
-
-.card {
-    background-color: rgb(67,105,178);
-    color: white;
-    margin: 0;
-    text-decoration: none;
+  background-color: rgb(54, 88, 148);
 }
 
 .info-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(88,137,228);
-    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(88, 137, 228);
+  height: 50px;
 }
 
 .filter {
-    line-height: 20px;
+  line-height: 20px;
 }
 
 .options {
-    line-height: 20px;
+  line-height: 20px;
 }
 
 .search-form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 section {
-    width: 100vw;
-    padding-top: 70px;
+  width: 100vw;
+  padding-top: 70px;
 }
