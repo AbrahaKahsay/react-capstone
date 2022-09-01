@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
+<nav
+  class="nav-container"
+>
+  <a
+    aria-current="page"
+    class="active"
+    href="/"
+  >
+    <img
+      alt="home"
+      class="icons"
+      src="home.png"
+    />
+  </a>
+  <div
+    class="back"
+  >
+    <h2>
+      Crypto Market
+    </h2>
+  </div>
+  <div
+    class="mic-set"
+  >
+    <img
+      alt="mic"
+      class="icons"
+      src="mic.png"
+    />
+    <img
+      alt="settings"
+      class="icons"
+      src="settings.png"
+    />
+  </div>
+</nav>
+`;

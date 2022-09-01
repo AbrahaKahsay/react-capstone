@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
+<section
+  class="cont-det"
+>
+  <div
+    class="back-icon-div"
+  >
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+    >
+      <img
+        alt="back"
+        class="back-icon"
+        src="back.png"
+      />
+    </a>
+  </div>
+  <div
+    class="detail coin-name"
+  >
+    <h2 />
+    <p />
+  </div>
+  <div
+    class="det-title col"
+  >
+    Details
+  </div>
+  <div
+    class="detailList"
+  >
+    <div
+      class="d"
+    >
+      <p>
+        Rank
+      </p>
+      <div>
+        <p>
+           #
+        </p>
+      </div>
+    </div>
+    <div
+      class="d col"
+    >
+      <p>
+        Price
+      </p>
+      <div>
+        <p>
+           $
+           USD
+        </p>
+      </div>
+    </div>
+    <div
+      class="d"
+    >
+      <p>
+        Volume 24h
+      </p>
+      <div>
+        <p>
+           $
+        </p>
+      </div>
+    </div>
+    <div
+      class="d col"
+    >
+      <p>
+        Total Supply
+      </p>
+      <div>
+        <p>
+           
+           
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+`;
