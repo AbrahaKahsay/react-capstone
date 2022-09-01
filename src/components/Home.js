@@ -32,7 +32,7 @@ const Home = () => {
           </select>
         </div>
         <div className="forms">
-          <form onSubmit={searchHandler}>
+          <form className="search-form" onSubmit={searchHandler}>
             <input type="text" name="coinSearch" placeholder="Fill Crypto name ..." required />
             <input type="submit" value="Search" />
           </form>

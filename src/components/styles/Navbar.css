@@ -7,3 +7,8 @@
     /* position: fixed; */
     width: 100vw;
 }
+.mic-set {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
