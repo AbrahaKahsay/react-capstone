@@ -9,7 +9,8 @@
     background-color: rgb(67,105,178);
     color: white;
     min-height: 100vh;
-    padding-top: 10px;
+    padding-top: 70px;
+    width: 100vw;
 }
 
 .back-icon-div{

@@ -17,6 +17,7 @@
     margin: 0;
     text-decoration: none;
 }
+
 .info-list {
     display: flex;
     align-items: center;
@@ -37,4 +38,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+section {
+    width: 100vw;
+    padding-top: 70px;
 }

@@ -4,11 +4,19 @@
     justify-content: space-between;
     background-color: rgb(67,105,178);
     color: rgb(246,251,255);
-    /* position: fixed; */
+    position: fixed;
     width: 100vw;
+    top: 0;
+    height: 70px;
 }
 .mic-set {
     display: flex;
     align-items: center;
     width: 150px;
+    justify-content: space-around;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
 }
