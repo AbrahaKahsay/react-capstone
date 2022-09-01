@@ -60,14 +60,14 @@ To get a local copy up and running follow these simple example steps.
 👤 **Abraha Kahsay**
 
 - GitHub: [@AbrahaKahsay](https://github.com/AbrahaKahsay)
-- Twitter: [@Alamsbut](https://twitter.com/abraha_ka)
+- Twitter: [@abraha_ka](https://twitter.com/abraha_ka)
 - LinkedIn: [abraha-kahsay](www.linkedin.com/in/abraha-kahsay-492771135/)
-
-## Contributers
 
 ## Acknowledgments
 
 - To Microverse morning session team,reviewers and standup team memebers.
+- To Nelson Sakwa for his template on Behance
+- To everyone whose code is used.
 
 ## 📝 License
 
