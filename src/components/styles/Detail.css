@@ -1,0 +1,41 @@
+.coin-name {
+  text-align: center;
+  padding: 5px 0;
+  background-color: rgb(88, 137, 228);
+}
+
+.cont-det {
+  margin: 0;
+  background-color: rgb(67, 105, 178);
+  color: white;
+  min-height: 100vh;
+  padding-top: 70px;
+  width: 100vw;
+}
+
+.back-icon-div {
+  background-color: rgb(67, 105, 178);
+}
+
+.back-icon {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: flex-start;
+  align-self: center;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.det-title {
+  text-align: center;
+  background-color: rgb(67, 105, 178);
+}
+
+.col {
+  background-color: rgb(63, 99, 165);
+}
