@@ -4,12 +4,12 @@ import { render } from '@testing-library/react';
 import Navbar from '../components/Navbar';
 
 describe('Jest Snapshot testing suite', () => {
-    it('Matches DOM Snapshot', () => {
-      const { container } = render(
-        <BrowserRouter>
-          <Navbar />
-        </BrowserRouter>,
-      );
-      expect(container.firstChild).toMatchSnapshot();
-    });
+  it('Matches DOM Snapshot', () => {
+    const { container } = render(
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>,
+    );
+    expect(container.firstChild).toMatchSnapshot();
   });
+});
