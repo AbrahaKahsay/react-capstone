@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
+<section>
+  <div
+    class="info-list"
+  >
+    <div
+      class="options"
+    >
+      <select
+        class="filter"
+      >
+        <option
+          value="price"
+        >
+           Rank 
+        </option>
+        <option
+          value="name"
+        >
+           Name 
+        </option>
+        <option
+          value="vol"
+        >
+           Price 
+        </option>
+      </select>
+    </div>
+    <div
+      class="forms"
+    >
+      <form
+        class="search-form"
+      >
+        <input
+          name="coinSearch"
+          placeholder="Fill Crypto name ..."
+          required=""
+          type="text"
+        />
+        <input
+          type="submit"
+          value="Search"
+        />
+      </form>
+    </div>
+  </div>
+  <ul
+    class="coinList"
+  />
+</section>
+`;

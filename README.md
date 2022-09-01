@@ -4,6 +4,14 @@
 
 This app is a React-redux app to get the gain the stock exchange data using api.
 
+## Live demo link
+
+https://thunderous-capybara-414788.netlify.app/
+
+## Loom presentation
+
+https://www.loom.com/share/fa19323b83ec4e948f8c1bef091a0332
+
 ## Screenshot
 
 ![image](https://user-images.githubusercontent.com/75738563/187927680-a5d7995c-4e2a-4f92-a3ed-33d7363fbffb.png)
