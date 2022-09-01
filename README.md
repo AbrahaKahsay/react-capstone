@@ -10,7 +10,7 @@ https://thunderous-capybara-414788.netlify.app/
 
 ## Loom presentation
 
-https://www.loom.com/share/fa19323b83ec4e948f8c1bef091a0332
+https://www.loom.com/share/79c71e0176cb45ff95f8de69b7b7611c
 
 ## Screenshot
 
