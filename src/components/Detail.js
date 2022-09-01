@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
 import { coinDetail } from '../redux/home/Detail';
 import Back from '../images/back.png';
+import './styles/Detail.css';
 
 const Detail = () => {
   const { id } = useParams();
@@ -14,12 +15,13 @@ const Detail = () => {
   }, []);
 
   return (
-    <section>
-      <NavLink to="/">
-        <img className="icons" src={Back} alt="back" />
-      </NavLink>
-
-      <div className="detail">
+    <section className="cont-det">
+      <div className="back-icon-div">
+        <NavLink to="/">
+          <img className="back-icon" src={Back} alt="back" />
+        </NavLink>
+      </div>
+      <div className="detail coin-name">
         <h2>{coin.symbol}</h2>
         <p>{coin.name}</p>
       </div>
