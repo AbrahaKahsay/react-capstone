@@ -30,7 +30,7 @@ const Detail = () => {
       </div>
       <div className="detailList">
         <div className="d">
-          <p>Rank:</p>
+          <p>Rank</p>
           <div>
             <p>
               {' #'}
@@ -39,7 +39,7 @@ const Detail = () => {
           </div>
         </div>
         <div className="d col">
-          <p>Price:</p>
+          <p>Price</p>
           <div>
             <p>
               {' $'}
@@ -49,7 +49,7 @@ const Detail = () => {
           </div>
         </div>
         <div className="d">
-          <p>Volume 24h:</p>
+          <p>Volume 24h</p>
           <div>
             <p>
               {' $'}
@@ -58,7 +58,7 @@ const Detail = () => {
           </div>
         </div>
         <div className="d col">
-          <p>Total Supply:</p>
+          <p>Total Supply</p>
           <div>
             <p>
               {' '}

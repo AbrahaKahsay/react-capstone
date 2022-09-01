@@ -17,7 +17,7 @@ const fetchCoins = async () => {
 
 export const coinList = () => async (dispatch) => {
   const coins = await fetchCoins();
-  const firstCoins = coins.slice(0, 30);
+  const firstCoins = coins.slice(0, 51);
   dispatch({
     type: COINS_FETCHED,
     newState: firstCoins,

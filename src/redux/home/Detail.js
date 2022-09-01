@@ -1,7 +1,7 @@
 const CoinAPI = 'https://api.coincap.io/v2/assets/';
 
 const DETAIL_FETCHED = 'DETAIL_FETCHED';
-const initialState = [{ id: 1, symbol: '$$' }];
+const initialState = [{ id: 'bitcoin', symbol: 'AKA' }];
 
 const fetchDetail = async (id) => {
   const get = await fetch(CoinAPI + id, { method: 'GET' });

@@ -1,95 +1,85 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Jest Snapshot testing suite component match with the snapshot 1`] = `
+exports[`Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
 <section
-  className="cont-det"
+  class="cont-det"
 >
   <div
-    className="back-icon-div"
+    class="back-icon-div"
   >
     <a
       aria-current="page"
-      className="active"
+      class="active"
       href="/"
-      onClick={[Function]}
     >
       <img
         alt="back"
-        className="back-icon"
+        class="back-icon"
         src="back.png"
       />
     </a>
   </div>
   <div
-    className="detail coin-name"
+    class="detail coin-name"
   >
-    <h2>
-      BTC
-    </h2>
-    <p>
-      Bitcoin
-    </p>
+    <h2 />
+    <p />
   </div>
   <div
-    className="det-title col"
+    class="det-title col"
   >
     Details
   </div>
   <div
-    className="detailList"
+    class="detailList"
   >
     <div
-      className="d"
+      class="d"
     >
       <p>
-        Rank:
+        Rank
       </p>
       <div>
         <p>
            #
-          1
         </p>
       </div>
     </div>
     <div
-      className="d col"
+      class="d col"
     >
       <p>
-        Price:
+        Price
       </p>
       <div>
         <p>
            $
-          19978.5413670121208613
            USD
         </p>
       </div>
     </div>
     <div
-      className="d"
+      class="d"
     >
       <p>
-        Volume 24h:
+        Volume 24h
       </p>
       <div>
         <p>
            $
-          11473430353.3195981000838766
         </p>
       </div>
     </div>
     <div
-      className="d col"
+      class="d col"
     >
       <p>
-        Total Supply:
+        Total Supply
       </p>
       <div>
         <p>
            
-          19138456.0000000000000000
            
-          BTC
         </p>
       </div>
     </div>
