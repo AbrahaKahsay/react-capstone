@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite component match with the snapshot 1`] = `
+<a
+  className="card"
+  href="/detail/bitcoin"
+  onClick={[Function]}
+>
+  <h2>
+    BTC
+  </h2>
+  <small>
+    bitcoin
+  </small>
+  <p>
+    $
+  </p>
+</a>
+`;
