@@ -25,12 +25,12 @@ const Detail = () => {
         <h2>{coin.symbol}</h2>
         <p>{coin.name}</p>
       </div>
-      <div className="det-title">
+      <div className="det-title col">
         Details
       </div>
       <div className="detailList">
-        <div>
-          <p>Rank</p>
+        <div className="d">
+          <p>Rank:</p>
           <div>
             <p>
               {' #'}
@@ -38,9 +38,9 @@ const Detail = () => {
             </p>
           </div>
         </div>
-        <div className="d">
-          <p>Price</p>
-          <div className="d">
+        <div className="d col">
+          <p>Price:</p>
+          <div>
             <p>
               {' $'}
               {coin.priceUsd}
@@ -48,8 +48,8 @@ const Detail = () => {
             </p>
           </div>
         </div>
-        <div>
-          <p>Volume 24h</p>
+        <div className="d">
+          <p>Volume 24h:</p>
           <div>
             <p>
               {' $'}
@@ -57,16 +57,16 @@ const Detail = () => {
             </p>
           </div>
         </div>
-        <div className="d">
-          <p>Total Supply</p>
-          <div className="d">
+        <div className="d col">
+          <p>Total Supply:</p>
+          <div>
             <p>
               {' '}
               {coin.supply}
               {' '}
               {coin.symbol}
             </p>
-         </div>
+          </div>
         </div>
       </div>
     </section>
